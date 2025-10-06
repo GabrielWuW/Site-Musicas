@@ -12,6 +12,12 @@
     backdrop-filter: blur(15.35px);
 }
 
+.fruttigerBlack {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.295) 0%, rgba(40, 40, 40, 0.2) 59.37%), rgba(20, 20, 20, 0.842);
+    backdrop-filter: blur(15.35px);
+}
+
+
 body {
     background-image: url('./imgs/fundo.png');
     background-size: cover;
@@ -125,6 +131,10 @@ header input:focus {
     flex-direction: column;
 }
 
+.btn_menu img {
+    width: 10vh;
+}
+
 .btn_menu:hover {
     cursor: pointer;
 }
@@ -230,4 +240,73 @@ header input:focus {
     font-weight: 700;
     font-size: 1.2rem;
 
+}
+
+.player {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.playerConteudo {
+    width: 70%;
+    position: relative;
+    height: 100%;
+    border-radius: 4vh 4vh 0px 0px;
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+}
+
+.playerConteudo img {
+    height: 100%;
+    margin-left: 3vh;
+    border: 3px solid rgba(255, 255, 255, 0.73);
+    box-shadow: 0px 4px 10px -3px rgba(0, 0, 0, 0.25), 0px 4px 50px 20px rgba(255, 255, 255, 0.25), 0px 4px 50px 18px rgba(255, 255, 255, 0.25), inset 0px 4px 50px 20px rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+
+}
+
+.containerControles {
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1vh;
+    text-shadow: 0px 4px 10px #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.barraMusica {
+    height: 2vh;
+    width: 90%;
+    border-radius: 1vh;
+}
+
+.btns_controll {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5vh;
+}
+
+.comandos {
+    display: flex;
+    gap: 2vh;
+}
+.outrosComandos {
+    display: flex;
+    gap: 2vh;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5vh;
 }
