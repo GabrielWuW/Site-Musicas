@@ -101,3 +101,133 @@ header input:focus {
     box-shadow: 0px 0px 11.9px #FFFFFF;
     border-radius: 40%;
 }
+
+.barraV {
+    width: 0px;
+    height: 100%;
+    border: 3px solid rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 11.9px #FFFFFF;
+    border-radius: 40%;
+}
+
+.btn_menu {
+    border: none;
+    font-size: .8rem;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 7.2px rgba(0, 0, 0, 0.77);
+    border-radius: 3vh 3vh 4vh 4vh;
+    padding: 2vh 1.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn_menu:hover {
+    cursor: pointer;
+}
+
+.containerBotoes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.divisor {
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    height: 77%;
+}
+
+.containerMusicas {
+    position: absolute;
+    top: 111px;
+    left: 510px;
+    width: calc(100vw - 510px);
+    height: calc(100vh - 111px);
+
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vh;
+    padding: 20px;
+
+    box-sizing: border-box;
+
+}
+
+.containerMusicas::-webkit-scrollbar {
+    display: none;
+}
+
+.musicaInfos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemMusica {
+    width: 60vh;
+    height: 30vh;
+    border-radius: 5vh 5vh 3vh 3vh;
+    padding: 3vh;
+    display: flex;
+}
+
+.imgMusica {
+    border: 5px solid rgba(255, 255, 255, 0.73);
+    box-shadow: 0px 4px 10px -3px rgba(0, 0, 0, 0.25), 0px 4px 50px 20px rgba(255, 255, 255, 0.25), 0px 4px 50px 18px rgba(255, 255, 255, 0.25), inset 0px 4px 50px 20px rgba(255, 255, 255, 0.25);
+    border-radius: 30px 50px;
+    width: 23vh;
+}
+
+.containerImage {
+    display: flex;
+    gap: 1vh;
+}
+
+.musicaNome {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #000000;
+    margin-left: 3vh;
+}
+
+.tag {
+    width: 10vh;
+    padding: 1.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5vh 5vh 3vh 3vh;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #000000;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.containerTags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    padding-left: 4vh;
+}
+
+.artistaAvaliacao {
+    display: flex;
+    justify-content: end;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px #000000;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
